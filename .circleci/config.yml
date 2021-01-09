@@ -34,7 +34,7 @@ jobs:
       - run: conda install numba;
       - run: conda install dask;
       - run: pip install tables
-      - run: pip install pip --upgrade; pip install -r requirements.txt;
+      - run: pip install pip --upgrade; 
       - run: pip install -e .
       - run: pip install coverage
       - run: git clone -b neuronunit https://github.com/russelljjarvis/jit_hub.git
